@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sarah/CLionProjects/Exercise/Games/Sudoku/getkey.h
+termio.h
+-
+stdio.h
+-
+
+/home/sarah/CLionProjects/Exercise/Games/Sudoku/kbhit.h
+stdio.h
+-
+termios.h
+-
+unistd.h
+-
+fcntl.h
+-
+
+/home/sarah/CLionProjects/Exercise/Games/Sudoku/main.cpp
+iostream
+-
+getkey.h
+/home/sarah/CLionProjects/Exercise/Games/Sudoku/getkey.h
+kbhit.h
+/home/sarah/CLionProjects/Exercise/Games/Sudoku/kbhit.h
+
