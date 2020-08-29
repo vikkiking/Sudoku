@@ -1,6 +1,0 @@
-#include <curses.h>
-initscr();
-noecho();
-cbreak();
-keypad(stdscr, true);
-endwin();
